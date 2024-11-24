@@ -13,13 +13,15 @@ class TabBarController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.tabBar.backgroundColor = .white
-        self.tabBar.tintColor = .systemGray
+        self.tabBar.tintColor = UIColor(named: "CoffeeOrange")
         self.tabBar.barTintColor = .white
-        self.tabBar.unselectedItemTintColor = .gray
-        let details = createViewController(name: "Details", icon: UIImage(systemName: "info.circle")!, view: DetailsViewController())
+        self.tabBar.unselectedItemTintColor = UIColor(named: "CoffeeGray")
+        let home = createViewController(name: "", icon: UIImage(named: "Home")!, view: DetailsViewController())
         
-        let order = createViewController(name: "Order", icon: UIImage(systemName: "cart")!, view: OrderViewController())
-        self.setViewControllers([details, order], animated: true)
+        let favourites = createViewController(name: "", icon: UIImage(named: "Heart")!, view: OrderViewController())
+        let order = createViewController(name: "", icon: UIImage(named: "Bag")!, view: OrderViewController())
+        let geo = createViewController(name: "", icon: UIImage(named: "Notification")!, view: OrderViewController())
+        self.setViewControllers([home, favourites, order, geo], animated: true)
     }
     
 
@@ -29,5 +31,7 @@ class TabBarController: UITabBarController {
         navigationController.tabBarItem.title = name
         return navigationController
     }
+    
+    
 
 }
