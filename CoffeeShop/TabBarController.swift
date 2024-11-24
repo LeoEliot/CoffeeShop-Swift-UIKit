@@ -13,7 +13,7 @@ class TabBarController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.tabBar.backgroundColor = .white
-        self.tabBar.tintColor = .systemBlue
+        self.tabBar.tintColor = .systemGray
         self.tabBar.barTintColor = .white
         self.tabBar.unselectedItemTintColor = .gray
         let details = createViewController(name: "Details", icon: UIImage(systemName: "info.circle")!, view: DetailsViewController())
