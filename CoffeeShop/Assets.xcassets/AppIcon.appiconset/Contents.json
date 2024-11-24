@@ -1,0 +1,38 @@
+{
+  "images" : [
+    {
+      "filename" : "flux-image.com_steaming-coffee-cup-on-a-wooden-table-in-natural-light---a-cozy-moment.png",
+      "idiom" : "universal",
+      "platform" : "ios",
+      "size" : "1024x1024"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "filename" : "flux-image.com_steaming-coffee-cup-on-a-wooden-table-in-natural-light---a-cozy-moment 1.png",
+      "idiom" : "universal",
+      "platform" : "ios",
+      "size" : "1024x1024"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "tinted"
+        }
+      ],
+      "filename" : "flux-image.com_steaming-coffee-cup-on-a-wooden-table-in-natural-light---a-cozy-moment 2.png",
+      "idiom" : "universal",
+      "platform" : "ios",
+      "size" : "1024x1024"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
